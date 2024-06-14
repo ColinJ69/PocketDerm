@@ -7,7 +7,7 @@ from torchvision import transforms
 import cv2
 import requests
 from roboflow import Roboflow
-model = torch.load('skin_tone_model.pth')
+model = torch.load('skin_tone_model.pth')#model is too big to upload to github :(
 class_names = ['Dark', 'Fair', 'Tan']
 transform = transforms.Compose([
     transforms.Resize((320,320)),
