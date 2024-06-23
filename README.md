@@ -16,7 +16,6 @@
 
 . Views.py determines what's put on the user's screen and where most of the action is
 
-. Other notable files are forms.py and models.py
 ### Register folder
 . Where the registering part of PocketDerm is
 
