@@ -6,14 +6,19 @@
 ### Main folder
 . Where the actual juice of PocketDerm is hosted in django
 
+. Templates folder which contains the html for the site
+
+. Static folder which contains the css for the entire site
 
 . Scan.py contains the entire process of scanning the user's face and the recommendations
 
+. Views.py determines what's put on the user's screen and where most of the action is
 
-. Views.py determines what's put on the user's screen
+. Other notable files are forms.py and models.py
 ### Register folder
 . Where the registering part of PocketDerm is
 
+. Templates folder which contains the html for the registering part of PocketDerm
 
 . Not really all that much in here
 
