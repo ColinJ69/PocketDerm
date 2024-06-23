@@ -1,6 +1,6 @@
 # Key
 ### ML folder
-. Where I trained all my models
+. Where I trained all my models using pytorch, the skin type model is trained using roboflow api
 ### Main folder
 . Where the actual juice of PocketDerm is hosted in django
 
