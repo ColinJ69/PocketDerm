@@ -6,15 +6,15 @@ from django.contrib.auth import logout
 from django.contrib.auth.models import User
 
 
-def skincare_scan(request):
+def skincare_scan(request):#This is the view for the homepage which will recommend skincare products 
     
         user = request.user.username
         print(user)
         if request.method == 'POST':
             form = product_form(request.POST)
             if form.is_valid():
-                user_attrs = begin_scan()
-                Concerns = form.cleaned_data['Concerns']
+                user_attrs = begin_scan() #A dictionary of all the users facial attributes that returned from the scan
+                Concerns = form.cleaned_data['Concerns']# Adds the concern the user had (Acne, aging, etc.) and takes that into account when recommending
                 print(Concerns)
                 
                      
@@ -49,7 +49,8 @@ def skincare_scan(request):
                 model.product_4_brand = product_brand.iloc[3]
                 model.save()
 
-
+                #It will save the top 4 recommended products and save them in a database, 
+                #that way even if the user logs out, they can always view what they were recommended, unless if they redo the scan                                    
                 context = {
                     'saved_products': product_model.objects.all(),
                     'form': form
@@ -64,7 +65,7 @@ def skincare_scan(request):
                 }
             return render(request, 'main.html', context=context)
     
-def disease_scan(request):
+def disease_scan(request):#The view for the disease detection function, go to scan.py to see what begin_disease_scan() does
     if(request.GET.get('startBtn')):
         results = begin_disease_scan()
         return render(request, 'detection.html', {'results': results})
