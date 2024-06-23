@@ -67,7 +67,7 @@ def begin_scan():
 
 
 
-df = pd.read_csv('https://github.com/ColinJ69/PocketDerm/raw/main/skindataall.csv', index_col=[0])
+df = pd.read_csv('https://github.com/ColinJ69/PocketDerm/raw/main/skin-care-products.csv', index_col=[0])
 
 
 def recommend_products_by_user_features(skintone, skintype, eyecolor, haircolor, concerns):
