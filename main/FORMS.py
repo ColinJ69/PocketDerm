@@ -2,7 +2,7 @@ from django.contrib.auth import login, authenticate
 from django import forms
 from django.contrib.auth.models import User
 
-class product_form(forms.Form):
+class product_form(forms.Form):#The form that starts the scan
     choices = (
         ('General', 'General'),
         ('Aging', 'Aging'),
