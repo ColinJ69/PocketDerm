@@ -1,4 +1,6 @@
 # Key
+### Data folder
+. Where all of my data is including that used in the recommendation system
 ### ML folder
 . Where I trained all my models using pytorch, the skin type model is trained using roboflow api
 ### Main folder
