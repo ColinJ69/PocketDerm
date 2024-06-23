@@ -1,0 +1,31 @@
+﻿textarea {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #5c605c;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #8AB492;
+    border-style: inset;
+}
+
+.login {
+    background-color: blue;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 100px 100px;
+    transition: transform 0.2s;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.bg-custom {
+    background-color: #1CA4AC;
+}
+body{
+    background-color: blue
+}
