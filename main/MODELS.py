@@ -1,6 +1,6 @@
 from django.db import models
 
-class product_model(models.Model):
+class product_model(models.Model):# Sends the recommded products to a database
     user = models.CharField(max_length=15,primary_key=True)
     product_1_title = models.CharField(max_length=50, null=True)
     product_1_category = models.CharField(max_length=12, null=True)
