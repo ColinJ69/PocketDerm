@@ -1,0 +1,66 @@
+﻿textarea {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #5c605c;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #8AB492;
+    border-style: inset;
+}
+
+.login {
+    background-color: #1CA4AC;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 100px 100px;
+    transition: transform 0.2s;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+}
+
+.bg-custom {
+    background-color: #1CA4AC;
+}
+
+#user{
+    color:white;
+    background-color:cadetblue;
+    border-color: white;
+    border-radius: 5px 5px;
+    height: 40px;
+    width: 400px;
+}
+#password{
+    border-color: white;
+    background-color: cadetblue;
+    border-radius: 5px 5px;
+    height: 40px;
+    width: 400px;
+}
+::placeholder {
+    color: white;
+}
+.regHead{
+   color:white;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.regBtn{
+    height:40px;
+    width:400px;
+    color: white;
+    background-color:cadetblue;
+    border-radius: 5px 5px;
+    border-color: white;
+}
+.regBtn:hover{
+    background-color: darkturquoise;
+}
+a:link{
+    color:cornflowerblue
+}
