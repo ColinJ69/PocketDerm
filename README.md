@@ -1,4 +1,5 @@
 # PocketDerm
 
+----------------------Key---------------------------
+---ML folder: where I trained all of my models in---
 
-Future submission for Alliance Medical Innovation Challenge
